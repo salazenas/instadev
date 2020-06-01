@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="16" failures="1" time="14.553">
+  <testsuite name="React Instagram APP" errors="0" failures="1" skipped="0" timestamp="2020-06-01T01:58:43" time="9.846" tests="16">
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Loading&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Loading&gt; component" time="0.032">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Post&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Post&gt; component" time="0.017">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Story&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Story&gt; component" time="0.006">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;SuccessMessage&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;SuccessMessage&gt; component" time="0.008">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Topbar&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Topbar&gt; component" time="0.005">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;User&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;User&gt; component" time="0.004">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;App&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;App&gt; container" time="0.041">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Posts&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Posts&gt; container" time="0.01">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Stories&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Stories&gt; container" time="0.004">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserForm&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserForm&gt; container" time="0.013">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserPosts&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserPosts&gt; container" time="0.006">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserProfile&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserProfile&gt; container" time="0.004">
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;FeedRoute&gt; component" name="React Instagram APP should should render properly the &lt;FeedRoute&gt; component" time="0.011">
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;NewUserRoute&gt; component" name="React Instagram APP should should render properly the &lt;NewUserRoute&gt; component" time="0.007">
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;ProfileRoute&gt; component" name="React Instagram APP should should render properly the &lt;ProfileRoute&gt; component" time="0.048">
+      <failure>TypeError: Cannot read property &apos;length&apos; of undefined
+    at UserProfile (/home/salazenas/codenation/react-16/src/containers/UserProfile/UserProfile.jsx:12:24)
+    at renderWithHooks (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/home/salazenas/codenation/react-16/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/home/salazenas/codenation/react-16/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/home/salazenas/codenation/react-16/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/home/salazenas/codenation/react-16/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/home/salazenas/codenation/react-16/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /home/salazenas/codenation/react-16/node_modules/@testing-library/react/dist/pure.js:86:25
+    at batchedUpdates$1 (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/home/salazenas/codenation/react-16/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/home/salazenas/codenation/react-16/node_modules/@testing-library/react/dist/pure.js:82:26)
+    at Object.&lt;anonymous&gt; (/home/salazenas/codenation/react-16/src/__tests__/submit.test.js:221:29)
+    at Object.asyncJestTest (/home/salazenas/codenation/react-16/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /home/salazenas/codenation/react-16/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/salazenas/codenation/react-16/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /home/salazenas/codenation/react-16/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;UsersRoute&gt; component" name="React Instagram APP should should render properly the &lt;UsersRoute&gt; component" time="0.012">
+    </testcase>
+  </testsuite>
+</testsuites>
